@@ -1,3 +1,6 @@
+*{
+
+}
 body{
     margin: 0;
     display: flex;
@@ -12,15 +15,14 @@ body{
 #calculater{
     font-family: arial, sans-serif;
     background: rgb(255, 255, 255);
- 
     border-radius: 15px;
-    max-width: 350px;
-    overflow: scroll;
+    max-width: 400px;
+    
 }
 
 #display{
-    width: 150%;
-    padding: 20px;
+    width: 100%;
+    padding: 10px;
     font-size: 5rem;
     text-align: left;
     border: none;
@@ -29,11 +31,11 @@ body{
     color: rgb(0, 0, 0);
     border-radius: 15px;
 }
+
 #keys{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 25px;
+    grid-template-columns: repeat(4, 9fr);
+    gap: 9px;
 }
 
 button{
@@ -69,3 +71,9 @@ h1 {
     font-family: 'Courier New', Courier, monospace; 
 }
 
+@media only screen and (max-width: 430px) {
+    #calculater{
+        max-width: 300px;
+
+    }
+  }
