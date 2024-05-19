@@ -14,8 +14,8 @@ body{
     background: rgb(255, 255, 255);
  
     border-radius: 15px;
-    max-width: 400px;
-    overflow: hidden;
+    max-width: 350px;
+    overflow: scroll;
 }
 
 #display{
