@@ -1,6 +1,6 @@
 var name = prompt(' Enter a name to open');
 if(name == 'name'){
-    document.write('Welcome!')
+    confirm('welcome')
 
 }else{
     window.location.href = 'index.html';
