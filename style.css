@@ -16,14 +16,14 @@ body{
     font-family: arial, sans-serif;
     background: rgb(255, 255, 255);
     border-radius: 15px;
-    max-width: 400px;
-    
+    max-width: 3500px;
+    text-align: center;
 }
 
 #display{
     width: 100%;
     padding: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
     border: none;
     background: rgb(255, 255, 255);
@@ -35,7 +35,7 @@ body{
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 9fr);
-    gap: 9px;
+    gap: 7px;
 }
 
 button{
@@ -73,7 +73,7 @@ h1 {
 
 @media only screen and (max-width: 430px) {
     #calculater{
-        max-width: 300px;
+        max-width: 250px;
 
     }
   }
